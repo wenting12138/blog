@@ -1,0 +1,15 @@
+server:
+  port: 22222
+spring:
+  application:
+    name: blog
+  thymeleaf:
+    mode: HTML
+    cache: true
+    prefix: classpath:/templates/
+    suffix: .html
+  profiles:
+    active: dev
+  messages:
+    basename: i18n/messages
+comment.avatar: https://unsplash.it/100/100?image=111
